@@ -1,0 +1,89 @@
+@import 'bootstrap/mixins.scss';
+@import 'bootstrap/bootstrap.scss';
+
+@font-face {
+	font-family: "Agenda";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/AgendaMedium.ttf") format('truetype') ;
+}
+
+body {
+  background: url(../images/background.png) no-repeat center top;
+  background-size: 100% auto ;
+  font-family: Tahoma ;
+}
+
+header {
+	margin-top: 0 ;
+  padding: 0 4% 0 12% ;
+  font-family: Agenda ;
+
+  nav {
+    .navbar-brand {
+      font-size: 26pt ;
+    }
+    .nav-link {
+      font-size: 14pt ;
+    }
+  }
+
+  #header-title {
+    padding: 0 32% 0 25% ;
+    h4 {
+      font-size: 20pt ;
+    }
+    p {
+      font-size: 11pt ;
+    }
+  }
+}
+
+#main-content {
+  margin-top: 90px ;
+  padding: 0 150/1170*100% ;
+
+	.technology {
+		.title-technology {
+			font-size: 10pt ;
+			color: #9f9f9f ;
+		}
+		.hourly-price {
+			font-size: 12pt ;
+			color: #515151 ;
+		}
+		.btn-technology {
+			font-family: Agenda ;
+			font-size: 10pt ;
+		}
+		.see-more {
+			height: 40px ;
+			font-size: 12pt ;
+			color: #959595 ;
+			@include gradient-y(#f4f4f5, #fdfdfd, 0%, 100%) ;
+		}
+	}
+
+	.empower {
+		margin-top: 100px ;
+
+		h5 {
+			font-size: 15pt ;
+		}
+		p {
+			font-size: 10pt ;
+		}
+		#empower {
+			#empower-step {
+				p {
+					line-height: 12pt ;
+				}
+			}
+			#empower-content {
+				background-color: #f2f2f2 ;
+			}
+		}
+		#company-detail {
+		}
+	}
+}
