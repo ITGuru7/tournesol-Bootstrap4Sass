@@ -43,7 +43,7 @@ header {
   margin-top: 90px ;
   padding: 0 150/1170*100% ;
 
-	.technology {
+	#technology {
 		.title-technology {
 			font-size: 10pt ;
 			color: #9f9f9f ;
@@ -64,7 +64,7 @@ header {
 		}
 	}
 
-	.empower {
+	#empower {
 		margin-top: 100px ;
 
 		h5 {
@@ -73,17 +73,64 @@ header {
 		p {
 			font-size: 10pt ;
 		}
-		#empower {
-			#empower-step {
-				p {
-					line-height: 12pt ;
-				}
-			}
-			#empower-content {
-				background-color: #f2f2f2 ;
+		#empower-step {
+			p {
+				line-height: 12pt ;
 			}
 		}
-		#company-detail {
+		#empower-content {
+			background-color: #f2f2f2 ;
 		}
 	}
+}
+
+#company-detail {
+	padding: 0 150/1170*100% ;
+	width: 100% ;
+	height: 160px ;
+	font-size: 12pt ;
+	color: #959595 ;
+	background-image: linear-gradient(#003da5, #0e4bb3, #003da5);
+}
+
+#support-content {
+	padding: 0 100/1170*100% 0 150/1170*100% ;
+	width: 100% ;
+	div.row {
+		width: 100% ;
+	}
+	h6 {
+		font-size: 12pt ;
+	}
+	a {
+		font-size: 8pt ;
+		color: #003da5 ;
+	}
+	.reason-detail {
+		height: 100px ;
+		font-size: 8pt ;
+		color: #8e8e8e ;
+	}
+}
+
+footer {
+	padding: 0 3% 0 12% ;
+  font-family: Agenda ;
+	height: 140px ;
+	background-color: #1b2f34 ;
+
+  nav {
+    .navbar-brand {
+      font-size: 26pt ;
+    }
+		ul.navbar-nav {
+			width: 200*3 / 988 * 100% ;
+			.nav-item {
+				width: 30% ;
+		    .nav-link {
+		      font-size: 14pt ;
+		    }
+			}
+		}
+  }
 }
