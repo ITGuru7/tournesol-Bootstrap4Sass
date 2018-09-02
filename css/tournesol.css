@@ -8661,29 +8661,34 @@ h3 {
 }
 body {
   background: url(../images/background.png) no-repeat center top;
-  background-size: 100% auto;
+  background-size: 100% 447px;
   font-family: Tahoma;
 }
 
 header {
   margin-top: 0;
-  padding: 0 4% 0 12%;
   font-family: Agenda;
+}
+header nav {
+  padding: 0 5.9829059829% 0 12.8205128205% !important;
 }
 header nav .navbar-brand {
   font-size: 26pt;
 }
 header nav .nav-link {
-  font-size: 14pt;
+  font-size: 19px;
 }
-header #header-title {
-  padding: 0 32% 0 25%;
+header nav li {
+  margin-left: 1px !important;
 }
 header #header-title h4 {
   font-size: 20pt;
 }
 header #header-title p {
   font-size: 11pt;
+}
+header #header-title ::placeholder {
+  color: #cecece;
 }
 
 #main-content {
@@ -8755,7 +8760,7 @@ header #header-title p {
 }
 
 footer {
-  padding: 0 3% 0 12%;
+  padding-left: 11.9658119658% !important;
   font-family: Agenda;
   height: 140px;
   background-color: #1b2f34;
@@ -8763,13 +8768,7 @@ footer {
 footer nav .navbar-brand {
   font-size: 26pt;
 }
-footer nav ul.navbar-nav {
-  width: 60.7287449393%;
-}
-footer nav ul.navbar-nav .nav-item {
-  width: 30%;
-}
-footer nav ul.navbar-nav .nav-item .nav-link {
+footer nav .nav-link {
   font-size: 14pt;
 }
 

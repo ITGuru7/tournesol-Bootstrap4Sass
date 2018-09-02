@@ -10,32 +10,37 @@
 
 body {
   background: url(../images/background.png) no-repeat center top;
-  background-size: 100% auto ;
+  background-size: 100% 447px ;
   font-family: Tahoma ;
 }
 
 header {
 	margin-top: 0 ;
-  padding: 0 4% 0 12% ;
   font-family: Agenda ;
 
   nav {
+		padding: 0 70/1170*100% 0 150/1170*100% !important ;
     .navbar-brand {
       font-size: 26pt ;
     }
     .nav-link {
-      font-size: 14pt ;
-    }
+			font-size: 19px ;
+		}
+		li {
+			margin-left: 1px !important ;
+		}
   }
 
   #header-title {
-    padding: 0 32% 0 25% ;
     h4 {
       font-size: 20pt ;
     }
     p {
       font-size: 11pt ;
     }
+		::placeholder {
+			color: #cecece ;
+		}
   }
 }
 
@@ -114,7 +119,7 @@ header {
 }
 
 footer {
-	padding: 0 3% 0 12% ;
+	padding-left: 140/1170*100% !important ;
   font-family: Agenda ;
 	height: 140px ;
 	background-color: #1b2f34 ;
@@ -123,14 +128,8 @@ footer {
     .navbar-brand {
       font-size: 26pt ;
     }
-		ul.navbar-nav {
-			width: 200*3 / 988 * 100% ;
-			.nav-item {
-				width: 30% ;
-		    .nav-link {
-		      font-size: 14pt ;
-		    }
-			}
-		}
+    .nav-link {
+      font-size: 14pt ;
+    }
   }
 }
