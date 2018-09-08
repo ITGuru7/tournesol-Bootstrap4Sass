@@ -8653,12 +8653,6 @@ h3 {
     border-color: #dee2e6;
   }
 }
-@font-face {
-  font-family: "Agenda";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/AgendaMedium.ttf") format("truetype");
-}
 body {
   background: url(../images/background.png) no-repeat center top;
   background-size: 100% 447px;
@@ -8666,110 +8660,125 @@ body {
 }
 
 header {
-  margin-top: 0;
-  font-family: Agenda;
+  margin-top: 10px;
+  font-family: "agendamedium";
 }
 header nav {
-  padding: 0 5.9829059829% 0 12.8205128205% !important;
+  padding: 0 calc(70/1170*100%) 0 calc(155/1170*100%) !important;
 }
 header nav .navbar-brand {
-  font-size: 26pt;
+  font-size: 36px;
 }
-header nav .nav-link {
-  font-size: 19px;
-}
-header nav li {
-  margin-left: 1px !important;
+header nav a {
+  font-size: 18px;
 }
 header #header-title h4 {
-  font-size: 20pt;
+  font-size: 26px;
 }
 header #header-title p {
-  font-size: 11pt;
+  font-size: 14px;
 }
 header #header-title ::placeholder {
   color: #cecece;
 }
 
 #main-content {
-  margin-top: 90px;
-  padding: 0 12.8205128205%;
+  margin-top: 80px;
+  padding: 0 calc(151/1170*100%);
 }
 #main-content #technology .title-technology {
-  font-size: 10pt;
+  height: 18px;
+  font-size: 14px;
   color: #9f9f9f;
 }
 #main-content #technology .hourly-price {
-  font-size: 12pt;
+  margin: 0 -22px;
+  font-size: 16px;
   color: #515151;
 }
 #main-content #technology .btn-technology {
-  font-family: Agenda;
-  font-size: 10pt;
+  font-family: "agendamedium";
+  font-size: 12px;
 }
 #main-content #technology .see-more {
   height: 40px;
-  font-size: 12pt;
   color: #959595;
   background-image: linear-gradient(to bottom, #f4f4f5 0%, #fdfdfd 100%);
   background-repeat: repeat-x;
 }
+#main-content #technology .see-more button {
+  font-size: 18px;
+}
 #main-content #empower {
-  margin-top: 100px;
+  margin-top: 95px;
 }
 #main-content #empower h5 {
-  font-size: 15pt;
+  font-size: 20px;
 }
 #main-content #empower p {
-  font-size: 10pt;
+  font-size: 14px;
 }
 #main-content #empower #empower-step p {
-  line-height: 12pt;
+  font-size: 12px;
+  line-height: 16px;
 }
 #main-content #empower #empower-content {
   background-color: #f2f2f2;
 }
 
 #company-detail {
-  padding: 0 12.8205128205%;
+  padding: 0 calc(150/1170*100%);
   width: 100%;
   height: 160px;
-  font-size: 12pt;
   color: #959595;
   background-image: linear-gradient(#003da5, #0e4bb3, #003da5);
 }
+#company-detail h3 {
+  font-size: 26px;
+}
+#company-detail p {
+  font-size: 14px;
+}
 
 #support-content {
-  padding: 0 8.547008547% 0 12.8205128205%;
+  padding: 0 calc(100/1170*100%) 0 calc(150/1170*100%);
   width: 100%;
 }
 #support-content div.row {
   width: 100%;
 }
+#support-content h5 {
+  font-size: 20px;
+}
 #support-content h6 {
-  font-size: 12pt;
+  font-size: 14px;
 }
 #support-content a {
-  font-size: 8pt;
+  font-size: 11px;
   color: #003da5;
 }
-#support-content .reason-detail {
+#support-content p {
   height: 100px;
-  font-size: 8pt;
+  font-size: 11px;
+  line-height: 13px;
   color: #8e8e8e;
+  margin-bottom: 0;
 }
 
 footer {
   padding-left: 11.9658119658% !important;
-  font-family: Agenda;
+  font-family: "agendamedium";
   height: 140px;
   background-color: #1b2f34;
 }
 footer nav .navbar-brand {
-  font-size: 26pt;
+  font-size: 36px;
 }
-footer nav .nav-link {
-  font-size: 14pt;
+footer nav .navbar-nav {
+  width: 79% !important;
+}
+footer nav a {
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=tournesol.css.map */
