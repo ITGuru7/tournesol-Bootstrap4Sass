@@ -8661,16 +8661,10 @@ body {
 
 header {
   margin-top: 10px;
-  font-family: "agendamedium";
+  font-family: "Tahoma";
 }
 header nav {
   padding: 0 calc(70/1170*100%) 0 calc(155/1170*100%) !important;
-}
-header nav .navbar-brand {
-  font-size: 36px;
-}
-header nav a {
-  font-size: 18px;
 }
 header #header-title h4 {
   font-size: 26px;
@@ -8680,6 +8674,14 @@ header #header-title p {
 }
 header #header-title ::placeholder {
   color: #cecece;
+}
+
+.navbar-brand {
+  font-size: 33px;
+}
+
+a {
+  font-size: 16px;
 }
 
 #main-content {
@@ -8767,18 +8769,12 @@ header #header-title ::placeholder {
 
 footer {
   padding-left: 11.9658119658% !important;
-  font-family: "agendamedium";
-  height: 140px;
+  font-family: "Tahoma";
+  height: 550px;
   background-color: #1b2f34;
-}
-footer nav .navbar-brand {
-  font-size: 36px;
 }
 footer nav .navbar-nav {
   width: 79% !important;
-}
-footer nav a {
-  font-size: 18px;
 }
 
 /*# sourceMappingURL=tournesol.css.map */

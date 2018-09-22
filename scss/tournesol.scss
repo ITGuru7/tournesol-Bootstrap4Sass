@@ -9,16 +9,10 @@ body {
 
 header {
 	margin-top: 10px ;
-  font-family: 'agendamedium' ;
+  font-family: 'Tahoma' ;
 
   nav {
 		padding: 0 calc(70/1170*100%) 0 calc(155/1170*100%) !important ;
-    .navbar-brand {
-      font-size: 36px ;
-		}
-    a {
-			font-size: 18px ;
-		}
   }
 
   #header-title {
@@ -32,6 +26,13 @@ header {
 			color: #cecece ;
 		}
   }
+}
+
+.navbar-brand {
+	font-size: 33px ;
+}
+a {
+	font-size: 16px ;
 }
 
 #main-content {
@@ -125,19 +126,13 @@ header {
 
 footer {
 	padding-left: 140/1170*100% !important ;
-  font-family: 'agendamedium' ;
-	height: 140px ;
+  font-family: 'Tahoma' ;
+	height: 550px ;
 	background-color: #1b2f34 ;
 
   nav {
-    .navbar-brand {
-      font-size: 36px ;
-		}
 		.navbar-nav {
 			width: 79% !important ;
 		}
-    a {
-      font-size: 18px ;
-    }
-  }
+	}
 }
